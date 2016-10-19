@@ -1,0 +1,91 @@
+;From object file:  E:\IBMCPP\samples\iclui\lstbox32\xlistbox.obj
+  ;PUBDEFs (Symbols available from object file):
+    ;ListBox32::currentDefaultExtendedStyle
+    currentDefaultExtendedStyle__9ListBox32
+    ;ListBox32::isSound() const
+    isSound__9ListBox32CFv
+    ;ListBox32::calcMinimumSize() const
+    calcMinimumSize__9ListBox32CFv
+    ;ListBox32::setSoundEvent(ListBox32::ClickEvent,const char*)
+    setSoundEvent__9ListBox32FQ2_9ListBox3210ClickEventPCc
+    ;ListBox32::extendedStyle() const
+    extendedStyle__9ListBox32CFv
+    ;ListBox32::ListBox32(unsigned long,IWindow*)
+    __ct__9ListBox32FUlP7IWindow
+    ;ListBox32::isChecked(unsigned long) const
+    isChecked__9ListBox32CFUl
+    ;ListBox32::unCheck(unsigned long)
+    unCheck__9ListBox32FUl
+    ;ListBox32::ListBox32(unsigned long,IWindow*,IWindow*,const IRectangle&,const IListBox::Style&,const ListBox32::ExtendedStyle&)
+    __ct__9ListBox32FUlP7IWindowT2RC10IRectangleRCQ2_8IListBox5StyleRCQ2_9ListBox3213ExtendedStyle
+    ;ListBox32::classDefaultExtendedStyle
+    classDefaultExtendedStyle__9ListBox32
+    ;ListBox32::createListBox(unsigned long,IWindow*,IWindow*,const IRectangle&,const IListBox::Style&,const ListBox32::ExtendedStyle&)
+    createListBox__9ListBox32FUlP7IWindowT2RC10IRectangleRCQ2_8IListBox5StyleRCQ2_9ListBox3213ExtendedStyle
+    ;ListBox32::setDefaultExtendedStyle(ListBox32::ExtendedStyle)
+    setDefaultExtendedStyle__9ListBox32FQ2_9ListBox3213ExtendedStyle
+    ;ListBox32::checkedItem() const
+    checkedItem__9ListBox32CFv
+    ;ListBox32::unCheckAll()
+    unCheckAll__9ListBox32Fv
+    ;ListBox32::numberChecked() const
+    numberChecked__9ListBox32CFv
+    ;ListBox32::~ListBox32()
+    __dt__9ListBox32Fv
+    ;ListBox32::defaultExtendedStyle()
+    defaultExtendedStyle__9ListBox32Fv
+    ;ListBox32::validate(const IWindowHandle&)
+    validate__9ListBox32FRC13IWindowHandle
+    ;ListBox32::checkAll()
+    checkAll__9ListBox32Fv
+    ;ListBox32::checkBox
+    checkBox__9ListBox32
+    ;ListBox32::check(unsigned long,int)
+    check__9ListBox32FUli
+    ;ListBox32::ListBox32(const IWindowHandle&)
+    __ct__9ListBox32FRC13IWindowHandle
+    __vft9ListBox326IVBase
+    ;ListBox32::enableCheckBox(int)
+    enableCheckBox__9ListBox32Fi
+    ;ListBox32::initialize()
+    initialize__9ListBox32Fv
+    ;ListBox32::disableCheckBox()
+    disableCheckBox__9ListBox32Fv
+    ;ListBox32::isCheckBox() const
+    isCheckBox__9ListBox32CFv
+    ;ListBox32::setExtendedStyle(const unsigned long)
+    setExtendedStyle__9ListBox32FCUl
+    ;ListBox32::soundEvent(ListBox32::ClickEvent) const
+    soundEvent__9ListBox32CFQ2_9ListBox3210ClickEvent
+;From object file:  E:\IBMCPP\samples\iclui\lstbox32\xlistini.obj
+  ;PUBDEFs (Symbols available from object file):
+    _DLL_InitTerm
+;From object file:  E:\IBMCPP\samples\iclui\lstbox32\xlisthdr.obj
+  ;PUBDEFs (Symbols available from object file):
+    ;ListBox32Handler::ListBox32Handler(ListBox32*)
+    __ct__16ListBox32HandlerFP9ListBox32
+    __vft16ListBox32Handler6IVBase
+    ;ListBox32Handler::handleEventsFor(IWindow*)
+    handleEventsFor__16ListBox32HandlerFP7IWindow
+    ;ListBox32Handler::gotFocus(const ListBox32Event&)
+    gotFocus__16ListBox32HandlerFRC14ListBox32Event
+    ;ListBox32Handler::~ListBox32Handler()
+    __dt__16ListBox32HandlerFv
+    ;ListBox32Handler::selected(const ListBox32Event&)
+    selected__16ListBox32HandlerFRC14ListBox32Event
+    ;ListBox32Handler::handleEventsFor(ListBox32*)
+    handleEventsFor__16ListBox32HandlerFP9ListBox32
+    ;ListBox32Handler::checked(const ListBox32Event&)
+    checked__16ListBox32HandlerFRC14ListBox32Event
+    ;ListBox32Handler::lostFocus(const ListBox32Event&)
+    lostFocus__16ListBox32HandlerFRC14ListBox32Event
+    ;ListBox32Handler::dispatchHandlerEvent(IEvent&)
+    dispatchHandlerEvent__16ListBox32HandlerFR6IEvent
+    ;ListBox32Handler::enter(const ListBox32Event&)
+    enter__16ListBox32HandlerFRC14ListBox32Event
+    ;ListBox32Handler::scroll(const ListBox32Event&)
+    scroll__16ListBox32HandlerFRC14ListBox32Event
+;From object file:  E:\IBMCPP\samples\iclui\lstbox32\xlistevt.obj
+  ;PUBDEFs (Symbols available from object file):
+    ;ListBox32Event::ListBox32Event(IEvent&)
+    __ct__14ListBox32EventFR6IEvent
